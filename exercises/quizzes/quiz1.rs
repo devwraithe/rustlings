@@ -17,9 +17,9 @@ fn calculate_price_of_apples(quantity: u32) -> u32 {
     let reduced_price_per_apple = 1;
 
     if quantity > 40 {
-        return reduced_price_per_apple * quantity;
+        reduced_price_per_apple * quantity
     } else {
-        return price_per_apple * quantity;
+        price_per_apple * quantity
     }
 }
 
